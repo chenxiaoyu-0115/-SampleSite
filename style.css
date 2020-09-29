@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+#container{
+  width: 84%;
+  max-width: 1280px;
+  min-width: 512px;
+  margin: 0 auto;
+}
+
+header {
+   position:relative;
+   height: 8rem;
+   background:#000080;
+   box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
+ }
+
+  header h1{
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+    font-size: 2rem;
+    color: yellow;
+  }
+
+nav {
+  padding: 1rem 3rem ;
+  background:#ffff00;
+}
+
+  nav ul{
+    display: flex;
+    flex-direction: row;
+  }
+
+  nav ul li{
+    margin-right: 2rem;
+  }
+
+  nav ul li a {
+    color: white;
+  }
+
+main{
+  display: flex;
+  flex-direction: row;
+}
+
+  section{
+    flex: 3;
+    padding: 3rem;
+    background#ffb6c1;
+  }
+
+    article{
+      min-height: 8rem;
+      padding: 1rem;
+      margin-bottom: 2rem;
+      background: #FFF;
+    }
+
+  aside{
+    flex: 1;
+    padding: 3rem;
+    background: #00ff7f;
+  }
+
+footer {
+  padding: 2rem 3rem;
+  text-align: center;
+  background:#1e90ff;
+  color: white;
+}
