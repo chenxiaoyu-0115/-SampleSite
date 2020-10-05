@@ -1,9 +1,11 @@
+/*
 *{
   margin: 0;
   padding: 0;
   list-style: none;
   text-decoration: none;
 }
+*/
 
 #container{
   width: 84%;
@@ -15,7 +17,7 @@
 header {
    position:relative;
    height: 8rem;
-   background:#000080;
+   background:#00ccff;
    box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
  }
 
@@ -24,12 +26,12 @@ header {
     top: 3rem;
     left: 3rem;
     font-size: 2rem;
-    color: yellow;
+    color:  #000000;
   }
 
 nav {
   padding: 1rem 3rem ;
-  background:#ffff00;
+  background: #33ccff;
 }
 
   nav ul{
@@ -66,7 +68,7 @@ main{
   aside{
     flex: 1;
     padding: 3rem;
-    background: #00ff7f;
+    background: #FFF;
   }
 
 footer {
